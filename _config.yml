@@ -91,7 +91,6 @@ page-mathjax: true
 # Friends
 friends: [
     {
-      ,
       #     title: "Su",
       #     href: "http://su.gallery/"
       # },{
@@ -118,5 +117,5 @@ friends: [
       #},{
       #    title: "尹峰以为",
       #    href: "http://ingf.github.io/"
-    },
+    }
   ]
