@@ -1,8 +1,8 @@
 # Site settings
-title: Brian's Blog
-SEOTitle: 李帛锦 | Brian's Blog
+title: xxxbrian.blog
+SEOTitle: 李帛锦 | Bojin's Blog
 header-img: img/home-bg.jpg
-email: bojin.li@student.unsw.edu.au
+email: bojin.li@foxmail.edu.au
 description: "Hi, I'm xxxbrian, a Student studying at the University of New South Wales. 🎓"
 keyword: "李帛锦, Brian, Bojin, xxxbrian, BOJINLI, 李帛锦Brian, @xxxbrian, lipochin, 李帛锦的博客, Brian's Blog, 博客, 个人网站"
 url: "https://xxxbrian.me"              # your host, for absolute URL
@@ -16,7 +16,7 @@ RSS: true
 #weibo_username:     Lipochin
 zhihu_username:     xxxbrian
 github_username:    xxxbrian
-twitter_username:   Lipochin523
+twitter_username:   bojinli
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
