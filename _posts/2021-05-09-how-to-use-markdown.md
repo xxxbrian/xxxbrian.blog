@@ -79,14 +79,14 @@ Markdown 段落没有特殊的格式，可以直接编写文字就好，__段落
 
 Markdown 使用 `*文本*` 或 `_文本_` 的方式来使用 __斜体文本__，`*文本*` 或 `_文本_` 的方式来使用 __粗体文本__。
 
-|用法|效果|
-|:-:|:-:|
-|`*斜体文本*`|*斜体文本*|
-|`_斜体文本_`|_斜体文本_|
-|`**粗体文本**`|**粗体文本**|
-|`__粗体文本__`| __粗体文本__|
-|`***粗斜体文本***`|***粗斜体文本***|
-|`___粗斜体文本___`|___粗斜体文本___|
+|        用法        |       效果       |
+| :----------------: | :--------------: |
+|    `*斜体文本*`    |    *斜体文本*    |
+|    `_斜体文本_`    |    _斜体文本_    |
+|   `**粗体文本**`   |   **粗体文本**   |
+|   `__粗体文本__`   |   __粗体文本__   |
+| `***粗斜体文本***` | ***粗斜体文本*** |
+| `___粗斜体文本___` | ___粗斜体文本___ |
 
 ---
 
@@ -242,18 +242,18 @@ __链接__ 使用方法如下：
 例如：
 
 ```markdown
-这是一个链接 [Brian's Blog](https://xxxbrian.me)
+这是一个链接 [Brian's Blog](https://bojin.co)
 ```
 
-这是一个链接 [Brian's Blog](https://xxxbrian.me)
+这是一个链接 [Brian's Blog](https://bojin.co)
 
 __直接使用链接地址__
 
 ```markdown
-链接 <https://xxxbrian.me>
+链接 <https://bojin.co>
 ```
 
-链接 <https://xxxbrian.me>
+链接 <https://bojin.co>
 
 __高级链接__
 
@@ -261,10 +261,10 @@ __高级链接__
 
 ```markdown
 这个链接用 1 作为网址变量 [Google][1]
-这个链接用 Brian's Blog 作为网址变量 [xxxbrian][xxxbrian]
+这个链接用 bojin.co 作为网址变量 [xxxbrian][xxxbrian]
 
 [1]: http://www.google.com/
-[xxxbrian]: https://xxxbrian.me
+[xxxbrian]: https://bojin.co
 ```
 
 ![link 效果](/img/in-post/2021-05-09-how-to-use-markdown/markdown_link.png)
@@ -288,11 +288,11 @@ Markdown 图片语法格式如下：
 使用实例：
 
 ```markdown
-![xxxbrian 图标](https://raw.githubusercontent.com/xxxbrian/xxxbrian.github.io/master/img/xxxbrian-192x192.png "xxxbrian")
+![xxxbrian 图标](https://raw.githubusercontent.com/xxxbrian/xxxbrian.blog/master/img/xxxbrian-192x192.png "xxxbrian")
 ```
 
 效果如下：
-![xxxbrian 图标](https://raw.githubusercontent.com/xxxbrian/xxxbrian.github.io/master/img/xxxbrian-192x192.png "xxxbrian")
+![xxxbrian 图标](https://raw.githubusercontent.com/xxxbrian.blog/master/img/xxxbrian-192x192.png "xxxbrian")
 
 ---
 
@@ -301,10 +301,10 @@ Markdown 图片语法格式如下：
 Markdown 制作表格使用 `|` 来分隔不同的单元格，使用 `-` 来分隔表头和其他行。
 
 ```markdown
-|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
+| 表头   | 表头   |
+| ------ | ------ |
+| 单元格 | 单元格 |
+| 单元格 | 单元格 |
 ```
 
 __表格对齐__
@@ -315,9 +315,9 @@ __表格对齐__
 
 ```markdown
 | 左对齐 | 右对齐 | 居中对齐 |
-| :-----| ----: | :----: |
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |
+| :----- | -----: | :------: |
+| 单元格 | 单元格 |  单元格  |
+| 单元格 | 单元格 |  单元格  |
 ```
 
 ![sheet 效果](/img/in-post/2021-05-09-how-to-use-markdown/markdown_sheet.png)
