@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: bojin.li@foxmail.edu.au
 description: "Hi, I'm Bojin Li, a Student studying at the University of New South Wales. 🎓"
 keyword: "李帛锦, Brian, Bojin, xxxbrian, BOJINLI, 李帛锦Brian, @xxxbrian, lipochin, 李帛锦的博客, Brian's Blog, 博客, 个人网站"
-url: "https://bojin.co" # your host, for absolute URL
+url: "https://blog.bojin.co" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
